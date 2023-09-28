@@ -133,8 +133,8 @@ productManager.getProducts().then((prods) => console.log(prods));
 
 // Agregar Producto
 const newProduct = new Product(
-  "asdasd",
-  "Por asdasdasdKilo",
+  "producto1",
+  "Es un producto de prueba",
   1200,
   "",
   "U202222001",
