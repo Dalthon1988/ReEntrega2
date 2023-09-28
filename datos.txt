@@ -1,0 +1,1 @@
+[{"title":"Milanesa","description":"Rebozada de pollo","price":280,"thumbnail":"http://milangadePolloo.jpg","code":"136MPOLLO","stock":120,"id":1},{"title":"Uvas","description":"Por Kilo","price":10,"thumbnail":"","code":"U001","stock":20,"id":1},{"title":"Papas","description":"Por Kilo","price":1200,"thumbnail":"","code":"U20001","stock":20,"id":1}]
