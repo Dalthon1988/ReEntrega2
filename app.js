@@ -145,5 +145,5 @@ productManager.addProduct(newProduct).then((result) => {
   console.log(result);
 });
 
-// Borrar producto
+// Borrar producto queda comentado sacar y probar para el deleteado de productos 
 //productManager.deleteProduct(1).then((result) => console.log(result));
