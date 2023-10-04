@@ -1,17 +1,13 @@
 const express = require('express')
 
-const fs = require('fs');
-
-const controlador = require('../controladores/pxid')
-
+const controlador = require('../controladores/productosParams')
 
 const rutas = express.Router()
 
 
 
+const path = 'productos/params'
 
-
-const path = 'productos/id'
 
 
 rutas.get (

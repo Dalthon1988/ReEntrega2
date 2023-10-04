@@ -7,13 +7,14 @@ const port = 8080
 
 const productoRouters = require('./app/rutas/products')
 const inicioRouters = require('./app/rutas/inicio')
-const seeProdRouters = require('./app/rutas/seeProd')
-const poridRouters = require('./app/rutas/pxid')
+const paramRouters = require('./app/rutas/productoxID')
+const ProdParamsRouters = require('./app/rutas/productosParams')
+
 
 app.use(productoRouters)
 app.use(inicioRouters)
-app.use(seeProdRouters)
-app.use(poridRouters)
+app.use(paramRouters)
+app.use(ProdParamsRouters)
 
 app.listen (port,()=>{
     console.log('La aplicacion esta en linea')

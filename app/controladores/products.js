@@ -4,7 +4,7 @@ const productManager = new ProductManager("./datos.json")
 exports.getData = async (req, res) =>{
     
 
-    const product = await ProductManager.getpro()
+    const product = await productManager.getProducts()
     res.send(product)
 
 

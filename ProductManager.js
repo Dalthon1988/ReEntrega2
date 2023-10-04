@@ -137,24 +137,24 @@ class Product {
 const productManager = new ProductManager(RUTA_ARCHIVO);
 
 // muestra los productos
-productManager.getProducts().then((prods) => console.log(prods));
+productManager.getProducts().then((prods) => console.log());
 
 // Agregar Producto
 
 
-const newProduct = new Product(
-  "2222",
+// const newProduct = new Product(
+//   "",
   
-  "2222",
-  100,
-  "2222",
-  "2222",
-  100
-);
+//   "",
+//   100,
+//   "",
+//   "",
+//   100
+// );
 
-productManager.addProduct(newProduct).then((result) => {
-  console.log(result);
-});
+// productManager.addProduct(newProduct).then((result) => {
+//   console.log(result);
+// });
 
 // Borrar producto queda comentado sacar y probar para el deleteado de productos
 //productManager.deleteProduct(1).then((result) => console.log(result));
