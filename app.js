@@ -20,3 +20,5 @@ app.listen (port,()=>{
     console.log('La aplicacion esta en linea')
 })
 //Cambio Comentario
+
+//se agrega gitignore
