@@ -6,7 +6,7 @@ const rutas = express.Router()
 
 
 
-const path = 'productos/:productoId'
+const path = 'api/productos/:productoId'
 
 
 

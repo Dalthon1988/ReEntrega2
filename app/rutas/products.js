@@ -8,10 +8,7 @@ const controlador = require('../controladores/products')
 const rutas = express.Router()
 
 
-
-
-
-const path = 'productos'
+const path = 'api/productos'
 
 
 rutas.get (
